@@ -2,6 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+/.idea/
+/*.iml
 
 ### Eclipse ###
 .apt_generated
@@ -27,3 +29,18 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Archivos compilados de Java
+*.class
+
+# Directorios comunes de construcción y salida
+/build/
+/target/
+
+# Archivos temporales y logs
+*.log
+
+# Otros archivos binarios y empaquetados
+*.jar
+*.war
+      
